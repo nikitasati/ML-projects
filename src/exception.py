@@ -20,6 +20,5 @@ if __name__=="__main__":
         a=1/0
     except Exception as e:
        logging.info("Divide by Zero")
-       raise CustomException(e,sys)
        
    
